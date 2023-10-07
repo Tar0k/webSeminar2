@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: TriodPostnaja;
+    font-weight: 900;
+    src: url("../fonts/TriodPostnaja.ttf");
+}
+
+.wooden-table {
+    background-image: url("../img/wooden_table.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.font-svitok {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../img/svitok.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 380px 120px 350px 120px;
+    gap: 20px;
+    font-family: TriodPostnaja, serif;
+}
+
+.center {
+    margin-left: calc(50% - 450px);
+    margin-right: calc(50% - 450px);
+}
+
+.bottom-content p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bottom-content figure {
+    text-align: center;
+}
